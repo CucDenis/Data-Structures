@@ -21,7 +21,7 @@ namespace DataStructures.Types
             {
                 if (array.Count == 0)
                 {
-                    throw new Exception("Queue is empty");
+                    throw new InvalidOperationException("Queue is empty");
                 }
 
                 var item = array[0];
